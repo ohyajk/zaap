@@ -21,7 +21,7 @@ const Analytics = () => {
                     </button>
                 </div>
             </div>
-            <div className='flex flex-wrap justify-center gap-5 mt-5'>
+            <div className='flex flex-wrap justify-center md:justify-start gap-5 mt-5'>
                 <AnalyticsCard name={"Unique Visitors"} duration={7} durationData={0} previousPeriodData={0} chartData={""} />
                 <AnalyticsCard name={"Impressions"} duration={7} durationData={0} previousPeriodData={0} chartData={""} />
                 <AnalyticsCard name={"Meetings"} duration={7} durationData={0} previousPeriodData={0} chartData={""} />
