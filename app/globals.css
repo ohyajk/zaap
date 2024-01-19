@@ -11,3 +11,39 @@
 .recharts-text {
     font-size: 12px;
 }
+
+.card1 {
+    -webkit-box-shadow: inset 32px 185px 300px -200px rgba(119, 100, 232, 1);
+    -moz-box-shadow: inset 32px 185px 300px -200px rgba(119, 100, 232, 1);
+    box-shadow: inset 32px 185px 300px -200px rgba(119, 100, 232, 1);
+}
+
+.card2 {
+    -webkit-box-shadow: inset 32px 185px 300px -200px rgba(73, 195, 195, 1);
+    -moz-box-shadow: inset 32px 185px 300px -200px rgba(73, 195, 195, 1);
+    box-shadow: inset 32px 185px 300px -200px rgba(73, 195, 195, 1);
+}
+
+.card3 {
+    -webkit-box-shadow: inset 32px 185px 300px -200px rgba(216, 76, 33, 1);
+    -moz-box-shadow: inset 32px 185px 300px -200px rgba(216, 76, 33, 1);
+    box-shadow: inset 32px 185px 300px -200px rgba(216, 76, 33, 1);
+}
+
+.card4 {
+    -webkit-box-shadow: inset 32px 185px 300px -200px rgba(236, 162, 53, 1);
+    -moz-box-shadow: inset 32px 185px 300px -200px rgba(236, 162, 53, 1);
+    box-shadow: inset 32px 185px 300px -200px rgba(236, 162, 53, 1);
+}
+
+.card5 {
+    -webkit-box-shadow: inset 32px 185px 300px -200px rgba(228, 73, 104, 1);
+    -moz-box-shadow: inset 32px 185px 300px -200px rgba(228, 73, 104, 1);
+    box-shadow: inset 32px 185px 300px -200px rgba(228, 73, 104, 1);
+}
+
+.card6 {
+    -webkit-box-shadow: inset 32px 185px 300px -200px rgba(223, 61, 33, 1);
+    -moz-box-shadow: inset 32px 185px 300px -200px rgba(223, 61, 33, 1);
+    box-shadow: inset 32px 185px 300px -200px rgba(223, 61, 33, 1);
+}
