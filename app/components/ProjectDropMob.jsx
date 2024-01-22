@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from "react"
 
-const ProjectDrop = ({ min }) => {
+const ProjectDropMob = () => {
     const [showProjects, setShowProjects] = useState(false)
 
     return (
@@ -27,16 +27,10 @@ const ProjectDrop = ({ min }) => {
             <button onClick={() => setShowProjects(!showProjects)} className='bg-gray-200 rounded-lg px-4 py-2 flex justify-between items-center gap-2 w-full hover:shadow-md'>
                 <span className='flex gap-2 items-center'>
                     <img alt='profile' className='w-8' src='https://imagedelivery.net/tqC70bVt8T6GtQUXNsa2-g/743efd57-1c7a-4ea5-402b-ec349ceae400/public' />
-
-                    <span className='hidden md:block'>
-                        <h2 className='font-medium text-left'>Gaurav</h2>
-                        <h6 className='text-gray-600/70 text-sm'>zapp.bio/gauravweb</h6>
-                    </span>
                 </span>
-                <img className='hidden md:block' src='https://app.zaap.ai/static/media/chevron-down.da71b7fd23e630ce2ec349d1a2932862.svg' width='8px' height='5px' alt='chevron' />
             </button>
         </div>
     )
 }
 
-export default ProjectDrop
+export default ProjectDropMob
