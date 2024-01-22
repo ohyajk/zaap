@@ -47,3 +47,7 @@
     -moz-box-shadow: inset 32px 185px 300px -200px rgba(223, 61, 33, 1);
     box-shadow: inset 32px 185px 300px -200px rgba(223, 61, 33, 1);
 }
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}

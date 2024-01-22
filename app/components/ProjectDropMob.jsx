@@ -7,7 +7,7 @@ const ProjectDropMob = () => {
     return (
         <div>
             {showProjects && (
-                <div onClick={() => setShowProjects(!showProjects)} className=' rounded-lg bg-white p-2 w-full text-sm'>
+                <div onClick={() => setShowProjects(!showProjects)} className='absolute bottom-12 right-2 rounded-lg bg-white p-2 w-full text-sm flex flex-col min-w-[200px]'>
                     <button className='flex gap-2 items-center w-full bg-gray-100 p-1 rounded-lg'>
                         <img alt='profile' className='w-8' src='https://imagedelivery.net/tqC70bVt8T6GtQUXNsa2-g/743efd57-1c7a-4ea5-402b-ec349ceae400/public' />
                         <span>@gauravweb</span>
